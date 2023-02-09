@@ -21,15 +21,15 @@
 				<form action="http://sc.it-academy.by/fe/form.php" method="post">
 					<fieldset>
 						<legend>Строка поиска</legend>
-						<p style="margin-bottom: -15px;">
+						<p style="margin-bottom: -1px;">
 							<input type="text" name="simple_search" id="simple_search" style="width: 100px;" maxlength="10">
 							<input type="submit" value="Искать">
-						</p>
-						<p style="margin-bottom: -15px;">
+							<br>
 							<input type="radio" name="type_of_search" value="site">на сайте
 							<input type="radio" name="type_of_search" value="google">в google
+							<br>
+							<em>Длинна запроса не более 10 символов<em>
 						</p>
-						<p style="margin-bottom: -1px;"><em>Длинна запроса не более 10 символов</em></p>
 					</fieldset>
 				</form>
 			</td>
@@ -38,55 +38,62 @@
 				<form action="http://sc.it-academy.by/fe/form.php" method="post">
 					<fieldset>
 						<legend>Строка поиска</legend>
-						<p style="margin-bottom: -15px;">
+						<p style="margin-bottom: -1px;">
 							<input type="text" name="sec_simp_search" id="sec_simp_search" style="width: 100px;" required
-								autofocus><sup><small>&#10033;</small></sup>
+								autofocus> <sup><small>&#10033;</small></sup>
 							<input type="submit" value="Искать">
-						</p>
-						<p style="margin-bottom: -15px;">
+							<br>
 							<input type="radio" name="type_of_search_2" value="site">на сайте
 							<input type="radio" name="type_of_search_2" value="google">в google
+							<br>
+							<sup><small>&#10033;</small></sup><em> - обязательное поле
+								<br>
+								Автофокус в поле поиска</em>
 						</p>
-						<p style="margin-bottom: -15px;"><sup><small>&#10033;</small></sup><em> - обязательное поле</em></p>
-						<p style="margin-bottom: -1px;"><em>Автофокус в поле поиска</em></p>
 					</fieldset>
 				</form>
 			</td>
 		</tr>
 		<tr>
 			<td valign="top">
-				<p><strong>Простая форма поиска с вариантами:</strong></p>
+				<p><strong>Простая форма авторизации:</strong></p>
 				<form action="http://sc.it-academy.by/fe/form.php" method="post">
 					<fieldset>
-						<legend>Строка поиска</legend>
-						<p style="margin-bottom: -15px;">
-							<input type="text" name="simple_search" id="simple_search" style="width: 100px;" maxlength="10">
-							<input type="submit" value="Искать">
+						<legend>Авторизируйтесь</legend>
+						<p style="margin-bottom: -1px;">
+							<input type="text" name="login" id="login" required>
+							<label for="login"><sup><small>&#10033;</small></sup> Логин</label>
+							<br>
+							<input type="password" name="password" id="password" required>
+							<label for="password"><sup><small>&#10033;</small></sup> Пароль</label>
+							<br>
+							<input type="checkbox" name="stay_in_sys" id="stay_in_sys">Оставаться в системе
+							<br>
+							<input type="submit" value="Войти">
+							<br>
+							<sup><small>&#10033;</small></sup><em> - обязательное поле</em>
 						</p>
-						<p style="margin-bottom: -15px;">
-							<input type="radio" name="type_of_search" value="site">на сайте
-							<input type="radio" name="type_of_search" value="google">в google
-						</p>
-						<p style="margin-bottom: -1px;"><em>Длинна запроса не более 10 символов</em></p>
 					</fieldset>
 				</form>
 			</td>
 			<td>
-				<p><strong>Простая форма поиска с вариантами:</strong></p>
+				<p><strong>Опрос(голосование):</strong></p>
 				<form action="http://sc.it-academy.by/fe/form.php" method="post">
 					<fieldset>
-						<legend>Строка поиска</legend>
-						<p style="margin-bottom: -15px;">
-							<input type="text" name="sec_simp_search" id="sec_simp_search" style="width: 100px;" required
-								autofocus><sup><small>&#10033;</small></sup>
-							<input type="submit" value="Искать">
+						<legend>Авторизируйтесь</legend>
+						<p style="margin-bottom: -1px;">
+							<input type="text" name="login" id="login" required>
+							<label for="login"><sup><small>&#10033;</small></sup> Логин</label>
+							<br>
+							<input type="password" name="password" id="password" required>
+							<label for="password"><sup><small>&#10033;</small></sup> Пароль</label>
+							<br>
+							<input type="checkbox" name="stay_in_sys" id="stay_in_sys">Оставаться в системе
+							<br>
+							<input type="submit" value="Войти">
+							<br>
+							<sup><small>&#10033;</small></sup><em> - обязательное поле</em>
 						</p>
-						<p style="margin-bottom: -15px;">
-							<input type="radio" name="type_of_search_2" value="site">на сайте
-							<input type="radio" name="type_of_search_2" value="google">в google
-						</p>
-						<p style="margin-bottom: -15px;"><sup><small>&#10033;</small></sup><em> - обязательное поле</em></p>
-						<p style="margin-bottom: -1px;"><em>Автофокус в поле поиска</em></p>
 					</fieldset>
 				</form>
 			</td>
