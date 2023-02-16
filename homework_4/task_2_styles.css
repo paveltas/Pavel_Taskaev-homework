@@ -1,0 +1,51 @@
+body {
+  max-width: 600px;
+  margin: auto;
+  /*не уверен*/
+  font-size: 16px;
+}
+
+h1 {
+  color: #FFA500;
+  text-align: right;
+}
+
+.h2_first {
+  color: #FFA500;
+}
+
+.h2_second {
+  color: #0055FF;
+}
+
+p:first-letter {
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: white;
+  font-style: italic;
+  background-color: #008000;
+}
+
+.list_ul {
+  font-weight: bold;
+}
+
+.list_gray {
+  color: #808080;
+}
+
+.list_red {
+  color: #FF2D40;
+}
+
+.list_green {
+  color: #3A9327;
+}
+
+th:content {
+  width: 100px;
+}
