@@ -1,0 +1,16 @@
+.format_block {
+  width: 300px;
+  margin: auto;
+  margin-top: 3em;
+  padding: 1em;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+p:focus {
+  color: blue;
+}
+
+div:hover {
+  color: orange;
+}
