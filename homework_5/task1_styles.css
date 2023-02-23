@@ -1,11 +1,27 @@
-input[type="checkbox"] {}
+body {
+	font-size: 14px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+label {
+	font-weight: bold;
+	text-decoration: underline;
+}
 
 label[for="red"] {
 	color: red;
+	margin-left: 55px;
 }
 
 #red:checked~label[for="red"] {
-	opacity: .4;
+	opacity: .2;
+}
+
+#red:checked~.red {
+	display: none;
 }
 
 label[for="green"] {
@@ -13,18 +29,32 @@ label[for="green"] {
 	margin: 30px;
 }
 
+#green:checked~label[for="green"] {
+	opacity: .2;
+}
+
+#green:checked~.green {
+	display: none;
+}
+
 label[for="blue"] {
 	color: blue;
 	margin-right: 25px;
 }
 
-input:checked {}
+#blue:checked~label[for="blue"] {
+	opacity: .2;
+}
+
+#blue:checked~.blue {
+	display: none;
+}
 
 .red,
 .green,
 .blue {
-	border-radius: 5px;
-	padding: 0px 5px 2px;
+	border-radius: 7px;
+	padding: 2px 7px;
 	color: white;
 }
 
