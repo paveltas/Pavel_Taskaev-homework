@@ -1,0 +1,39 @@
+input[type="checkbox"] {
+	display: none;
+}
+
+label[for="red"] {
+	color: red;
+}
+
+label[for="green"] {
+	color: green;
+	margin: 30px;
+}
+
+label[for="blue"] {
+	color: blue;
+	margin-right: 25px;
+}
+
+input:checked {}
+
+.red,
+.green,
+.blue {
+	border-radius: 5px;
+	padding: 0px 5px 2px;
+	color: white;
+}
+
+.red {
+	background: red;
+}
+
+.green {
+	background: green;
+}
+
+.blue {
+	background: blue;
+}
