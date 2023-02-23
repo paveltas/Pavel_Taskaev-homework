@@ -1,9 +1,11 @@
-input[type="checkbox"] {
-	display: none;
-}
+input[type="checkbox"] {}
 
 label[for="red"] {
 	color: red;
+}
+
+#red:checked~label[for="red"] {
+	opacity: .4;
 }
 
 label[for="green"] {
