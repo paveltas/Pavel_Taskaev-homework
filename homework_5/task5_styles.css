@@ -76,7 +76,7 @@ p:nth-child(2) {
 	margin-bottom: 17px;
 }
 
-.sup {
+sup {
 	position: relative;
 	vertical-align: top;
 	font-family: 'Courier New', Courier, monospace;
